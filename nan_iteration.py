@@ -1,5 +1,7 @@
 def nan_interation(string):
     counter = 0
+    if string == "":
+        return 0
     string = string.replace("Not a ", "*")
     print(string)
     for symbol in string:
@@ -12,3 +14,5 @@ def nan_interation(string):
         return counter
 
 print(nan_interation("Not a Not a NaN"))
+print(nan_interation(""))
+print(nan_interation("Show these people"))
