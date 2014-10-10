@@ -32,10 +32,10 @@ def is_prime(n):
 
     return True
 
-print(is_prime(1))
-print(is_prime(11))
-print(is_prime(3))
-print(is_prime(44))
-print(is_prime(-5))
-print(is_prime(-11))
-print(is_prime(-44))
+# print(is_prime(1))
+# print(is_prime(11))
+# print(is_prime(3))
+# print(is_prime(44))
+# print(is_prime(-5))
+# print(is_prime(-11))
+# print(is_prime(-44))
