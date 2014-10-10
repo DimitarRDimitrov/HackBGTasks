@@ -3,7 +3,6 @@ def nan_interation(string):
     if string == "":
         return 0
     string = string.replace("Not a ", "*")
-    print(string)
     for symbol in string:
         if symbol == "*":
             counter += 1
