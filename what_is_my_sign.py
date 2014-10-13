@@ -1,64 +1,64 @@
 def what_is_my_sign(date, month):
     if month == 1:
         if date > 20:
-            print("Aquarius")
+            return "Aquarius"
         else:
-            print("Capricorn")
+            return "Capricorn"
     elif month == 2:
         if date > 19:
-            print("Pisces")
+            return "Pisces"
         else:
-            print("Aquarius")
+            return "Aquarius"
     elif month == 3:
         if date > 20:
-            print("Aries")
+            return "Aries"
         else:
-            print("Pisces")
+            return "Pisces"
     elif month == 4:
         if date > 20:
-            print("Taurus")
+            return "Taurus"
         else:
-            print("Aries") 
+            return "Aries" 
     elif month == 5:
         if date > 21:
-            print("Gemini")
+            return "Gemini"
         else:
-            print("Taurus")
+            return "Taurus"
     elif month == 6:
         if date > 22:
-            print("Cancer")
+            return "Cancer"
         else:
-            print("Gemini")
+            return "Gemini"
     elif month == 7:
         if date > 22:
-            print("Leo")
+            return "Leo"
         else:
-            print("Cancer")
+            return "Cancer"
     elif month == 8:
         if date > 22:
-            print("Virgo")
+            return "Virgo"
         else:
-            print("Leo")
+            return "Leo"
     elif month == 9:
         if date > 23:
-            print("Libra")
+            return "Libra"
         else:
-            print("Virgo")
+            return "Virgo"
     elif month == 10:
         if date > 23:
-            print("Scorpio")
+            return "Scorpio"
         else:
-            print("Libra")
+            return "Libra"
     elif month == 11:
         if date > 22:
-            print("Sagittarius")
+            return "Sagittarius"
         else:
-            print("Scorpio")
+            return "Scorpio"
     elif month == 12:
         if date > 21:
-            print("Capricorn")
+            return "Capricorn"
         else:
-            print("Sagittarius")
+            return "Sagittarius"
 
 print(what_is_my_sign(28, 1))
 print(what_is_my_sign(8, 5))
