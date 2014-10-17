@@ -13,13 +13,15 @@ def reduce_file_path(string):
             result = result + "/" + lst[i]
         i += 1
     result = result.replace("//", "/")
+    if result == "":
+        result = "/"
     return result
 
 
-print(reduce_file_path("//home//radorado/code/./hackbulgaria/week0/../"))
-print(reduce_file_path("/"))
-print(reduce_file_path("/srv/../"))
-print(reduce_file_path("/srv/./././././"))
-print(reduce_file_path("/etc//wtf/"))
-print(reduce_file_path("/etc/../etc/../etc/../"))
-print(reduce_file_path("//////////////"))
+# print(reduce_file_path("//home//radorado/code/./hackbulgaria/week0/../"))
+# print(reduce_file_path("/"))
+# print(reduce_file_path("/srv/../"))
+# print(reduce_file_path("/srv/./././././"))
+# print(reduce_file_path("/etc//wtf/"))
+# print(reduce_file_path("/etc/../etc/../etc/../"))
+# print(reduce_file_path("//////////////"))

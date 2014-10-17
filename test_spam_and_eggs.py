@@ -21,6 +21,5 @@ class Test_Spam_and_Eggs(unittest.TestCase):
         self.assertEqual("spam spam and eggs", prepare_meal(45))
 
 
-
 if __name__ == '__main__':
     unittest.main()
